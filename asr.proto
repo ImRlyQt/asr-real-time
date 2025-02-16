@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service ASR {
+    rpc Transcribe (stream AudioChunk) returns (stream Transcription);
+}
+
+message AudioChunk {
+    bytes audio_data = 1;
+}
+
+message Transcription {
+    string text = 1;
+}
