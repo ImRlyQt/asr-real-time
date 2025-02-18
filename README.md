@@ -18,7 +18,7 @@ A desktop application for **Windows** that transcribes speech in **Polish** in r
 
 ## Requirements
 
-🔹 **Python 3.8+ up to 3.11**\ 
+🔹 **Python 3.8+ up to 3.11**\
 🔹 **Windows 10/11**\
 🔹 **Microphone**
 
